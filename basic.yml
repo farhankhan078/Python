@@ -1,0 +1,32 @@
+#intro to YAML
+#YAML is a config file where data is being stored or transmitted.  used in DevOps (Ansible,Docker, k8s)
+# YAML stands for Yet Another Markup Language or YAML Ain't Markup Language.
+# Which emphasize that this is not for document this is for data.
+#YAML is easy to use and understand
+
+
+students: 
+  student1:
+    name: "Aliza Shaikh"
+    class: BCA
+    roll: 121023
+    subject: #subjects using <list> in YAML
+      - Maths
+      - CAAL
+      - C Programming
+    marks: #Marks using <dictionary> in YAML
+      Maths: 67
+      CAAL: 87
+      C Programming: 65
+  student2:
+    name: "Helina kaur"
+    class: BCA
+    roll: 121025
+    subject:
+      - Maths
+      - CAAL
+      - C Programming
+    marks:
+      Maths: 56
+      CAAL: 54
+      C Programming: 75
