@@ -10,5 +10,5 @@ num % 10 gives the last digit.
 
         <br>
         <hr>
-        21/08/24 :- In the 2nd program, here i create a name check program. In this program, you type your name and if name is available<br> in the list it shows your name is present in the list. if you enter wrong name it shows your name is not in the list.
-.
+21/08/24 :- In the 2nd program, here i create a name check program. In this program, you type your name and if name is available<br> in the list it shows your name is present in the list. if you enter wrong name it shows your name is not in the list.
+
