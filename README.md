@@ -8,6 +8,6 @@ num // 100 gives the first digit
 num % 10 gives the last digit.
         if first and last digit is same then the number is palindrome otherwise it is not palindrome
 
-
+<hr>
         
 21/08/24 :- In the 2nd program, here i create a name check program. In this program, you type your name and if name is available<br> in the list it shows your name is present in the list. if you enter wrong name it shows your name is not in the list.
