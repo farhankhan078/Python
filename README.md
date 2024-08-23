@@ -14,3 +14,10 @@ num % 10 gives the last digit.
 <hr>
 For YAML learning Click on the given link <br>
 <a href = "https://yaml.org/spec/1.2.2/">YAML</a>
+<hr>
+<hr>
+
+<b>result.py que. explanation</b>W A P in python, the total percentage of marks obtained in three subjects and determines whether the student has passed or failed based on the following criteria:
+<br>
+1). The total percentage must be 40% or higher.<br>
+2). The student must score at least 33 marks in each subject<br>
