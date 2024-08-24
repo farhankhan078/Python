@@ -1,6 +1,6 @@
 a = 'Give me your card number'
 b = 'Give me your telegram'
-c = 'please join'
+c = 'Please join'
 d = 'Buy Now'
 e = 'Subscribe Now To get a Ferrari'
 
