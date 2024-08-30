@@ -1,3 +1,6 @@
+
+//QUESTION: If buyer have good credit score then he pay only 10% otherwise they have to pay 20% of the amount
+
 price_of_house = 1000000
 cr_score = int(input("Enter credit score: "))
 
