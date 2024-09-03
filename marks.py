@@ -1,38 +1,32 @@
-# Input the student's name
+
 student_name = input("Enter the student's name: ")
 
-# Input marks for each subject individually
 math_marks = int(input("Enter marks for Math (out of 100): "))
 science_marks = int(input("Enter marks for Science (out of 100): "))
 english_marks = int(input("Enter marks for English (out of 100): "))
 history_marks = int(input("Enter marks for History (out of 100): "))
 SST_marks = int(input("Enter marks for SST (out of 100): "))
 
-# Calculate total marks and percentage
 total_marks = math_marks + science_marks + english_marks + history_marks + SST_marks
-max_marks = 5 * 100  # Since there are 5 subjects
+
+max_marks = 5 * 100  
 percentage = (total_marks / max_marks) * 100
 
 # Determine the grade based on the percentage
-if percentage >= 90:
-    grade = 'A+'
-elif percentage >= 80:
-    grade = 'A'
-elif percentage >= 70:
-    grade = 'B+'
-elif percentage >= 60:
-    grade = 'B'
-elif percentage >= 50:
-    grade = 'C'
-elif percentage >= 40:
-    grade = 'D'
+if percentage >= 60:
+    grade = '1st Div'
+elif percentage >= 45:
+    grade = '2nd Div'
+elif percentage >= 33:
+    grade = '3rd Div'
 else:
-    grade = 'F'
+    grade = 'Fail'
 
 
 print("\nMarksheet of:", student_name)
 print("-" * 30)
-print(f"Math: {math_marks}/100")
+print("Subject:\tMaximum Marks\t Obtained Marks\tResult"
+print(f"Math: {math_marks}/100\t ")
 print(f"Science: {science_marks}/100")
 print(f"English: {english_marks}/100")
 print(f"History: {history_marks}/100")
