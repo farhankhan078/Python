@@ -35,13 +35,11 @@ elif choice == 3:
     print("Enter 2 to convert m to km\n")
     ch = int(input("Enter your choice: "))
     if ch == 1:
-        print("Enter kilometer to convert into meter. (km to m): ")
-        km = int(input())
+        km = int(input("Enter kilometer to convert into meter. (km to m): "))
         meter = km * 1000
         print(f"{km} Kilometer = {meter} Meter")
     elif ch == 2:
-        print("Enter kilometer to convert into meter. (km to m): ")
-        m = int(input())
+        m = int(input("Enter meter to convert into kilometer. (m to km): "))
         kilo_meter = m // 1000
         print(f"{m} Meter = {kilo_meter} Kilometer")
     else:
@@ -49,6 +47,3 @@ elif choice == 3:
 
 else:
     print("Wrong choice. Plz Try Again...")
-    
-    
-
