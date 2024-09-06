@@ -40,7 +40,7 @@ elif choice == 3:
         print(f"{km} Kilometer = {meter} Meter")
     elif ch == 2:
         m = int(input("Enter meter to convert into kilometer. (m to km): "))
-        kilo_meter = m // 1000
+        kilo_meter = m / 1000
         print(f"{m} Meter = {kilo_meter} Kilometer")
     else:
         print("Wrong choice")
